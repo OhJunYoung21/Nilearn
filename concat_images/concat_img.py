@@ -20,7 +20,7 @@ def concat_3d_to_4d(input_dir, output_file):
     print(f"Concatenated {len(nifti_files)} files into {output_file}")
 
 
-input_dir = '/Users/oj/Desktop/Yoo_Lab/pre_BIDS/BIDS_HC/sub-01/func'
-output_dir = '/Users/oj/Desktop/Yoo_Lab/pre_BIDS/BIDS_HC/sub-01/func'
+input_dir = '/Users/oj/Desktop/Yoo_Lab/pre_BIDS/BIDS_HC/sub-37/func'
+output_dir = '/Users/oj/Desktop/Yoo_Lab/pre_BIDS/BIDS_HC/sub-37/func'
 
 concat_3d_to_4d(input_dir,output_dir)
